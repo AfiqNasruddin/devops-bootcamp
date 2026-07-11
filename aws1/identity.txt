@@ -3,3 +3,4 @@
     "Account": "345594575920",
     "Arn": "arn:aws:iam::345594575920:user/afiq"
 }
+test
