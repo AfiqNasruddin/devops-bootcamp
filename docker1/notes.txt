@@ -1,0 +1,19 @@
+Docker version 29.6.1, build 8900f1d
+IMAGE                                                          ID             DISK USAGE   CONTENT SIZE   EXTRA
+alpine:latest                                                  d529dd0c6e55       8.42MB             0B        
+hello-world:latest                                             e2ac70e7319a       10.1kB             0B        
+infratify/card:latest                                          735347b6b46d       53.4MB             0B        
+localstack-ec2/amazonlinux-2023:ami-024f768332f0               aa9c27d40695        215MB             0B        
+localstack-ec2/amazonlinux-2:ami-07b643b5e45e                  ab47ad6268e3        250MB             0B        
+localstack-ec2/ubuntu-22.04-jammy-jellyfish:ami-df5de72bdb3b   18d8014b7a91        192MB             0B        
+localstack/ami-amazonlinux:2                                   ab47ad6268e3        250MB             0B        
+localstack/ami-amazonlinux:2023                                aa9c27d40695        215MB             0B        
+localstack/ami-ubuntu:22.04                                    18d8014b7a91        192MB             0B        
+localstack/localstack-pro:dev                                  c0d543afd496       1.18GB             0B        
+nginx:alpine                                                   ea51152ef8c4       62.2MB             0B        
+nginx:latest                                                   9f33606b3685        161MB             0B   U    
+portainer/portainer-ce:latest                                  25fe04aabd89        145MB             0B   U    
+CONTAINER ID   IMAGE                           COMMAND                  CREATED          STATUS          PORTS                                                                                                NAMES
+4bbba4e01d07   nginx                           "/docker-entrypoint.…"   34 minutes ago   Up 34 minutes   0.0.0.0:8080->80/tcp, [::]:8080->80/tcp                                                              web
+cd24076cf8cb   nginx                           "/docker-entrypoint.…"   35 minutes ago   Up 35 minutes   80/tcp                                                                                               xenodochial_northcutt
+a4139f70bf1e   portainer/portainer-ce:latest   "/portainer --no-set…"   12 days ago      Up 34 hours     0.0.0.0:8000->8000/tcp, [::]:8000->8000/tcp, 0.0.0.0:9443->9443/tcp, [::]:9443->9443/tcp, 9000/tcp   portainer
