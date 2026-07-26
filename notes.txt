@@ -1,0 +1,10 @@
+345594575920.dkr.ecr.ap-southeast-1.amazonaws.com/devops-bootcamp/afiq
+DRIVER    VOLUME NAME
+local     me
+local     portainer_data
+NETWORK ID     NAME                        DRIVER    SCOPE
+dedd7a0e46f5   arena                       bridge    local
+cae942aaed0b   bridge                      bridge    local
+60e6f2732cba   host                        host      local
+c7f04c086376   localstack-ec2-link-local   bridge    local
+34e9f0082dd1   none                        null      local
