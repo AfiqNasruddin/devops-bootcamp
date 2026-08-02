@@ -1,0 +1,5 @@
+daisy.ns.cloudflare.com
+ishaan.ns.cloudflare.com
+www.carpetcloud.dev
+afiqnasruddin.pages.dev
+alexrivera.carpetcloud.dev
