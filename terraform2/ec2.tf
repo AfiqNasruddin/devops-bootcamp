@@ -26,7 +26,7 @@ resource "aws_instance" "my_server_1" {
   }
 }
 
-resource "aws_instance" "my_server_1" {
+resource "aws_instance" "my_server_2" {
   ami                    = data.aws_ami.my_ami.id
   instance_type          = "t3.micro"
   subnet_id              = aws_subnet.my_subnet.id
