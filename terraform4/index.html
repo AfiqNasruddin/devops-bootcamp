@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevOps Bootcamp 2026 - Student Card</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #1a1a2e;
+      font-family: system-ui, -apple-system, sans-serif;
+    }
+
+    .card {
+      width: 320px;
+      padding: 2rem;
+      background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+      border-radius: 16px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+      color: #fff;
+      text-align: center;
+      animation: fadeIn 1s ease-out forwards;
+      opacity: 0;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-4px) scale(1.02);
+      box-shadow: 0 16px 48px rgba(0,0,0,0.4);
+    }
+
+    .badge {
+      width: 100px;
+      height: 100px;
+      margin: 0 auto 1.5rem;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #ff6b6b 0%, #feca57 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 12px rgba(255,107,107,0.3);
+      animation: pulse 2s ease-in-out infinite;
+    }
+
+    .badge svg {
+      width: 40px;
+      height: 40px;
+      fill: #1a1a2e;
+    }
+
+    .name {
+      font-size: 1.8rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .cohort {
+      opacity: 0.8;
+      font-size: 0.95rem;
+      margin-bottom: 1rem;
+    }
+
+    .role {
+      opacity: 0.7;
+      font-size: 0.85rem;
+    }
+
+    @keyframes fadeIn {
+      to { opacity: 1; }
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.08); }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="badge">
+      <svg viewBox="0 0 24 24"><path d="M12 2L2 7h20L12 2zM2 17h20v2L12 22l-10-5v-2z"/></svg>
+    </div>
+    <h2 class="name">Afiq</h2>
+    <p class="cohort">DevOps-Bootcamp-2026</p>
+    <p class="role">Student</p>
+  </div>
+</body>
+</html>
